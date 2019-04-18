@@ -56,9 +56,7 @@ public class Main {
         }
 
     } else if (ans==3){
-       /* Courses courses = null;// ne demek?
-        Students students = null;
-        courses.printStudent(students);*/
+       
         System.out.println("Enter Course code to list students:");
         int a=scanner.nextInt();
 
@@ -91,7 +89,7 @@ public class Main {
             int courseSemester = scanner.nextInt();
             System.out.println("Course semester: "+courseSemester);
 
-            coursesArrayList.add(new Courses(courseName,courseCode,courseSemester));// getter kullanılarak olmaz mı
+            coursesArrayList.add(new Courses(courseName,courseCode,courseSemester));
             System.out.println(courseName+" is added.");
 
         }
